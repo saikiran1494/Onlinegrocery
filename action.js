@@ -164,5 +164,5 @@ function add_cart(productName,price)
     });
     order.addEventListener("click",()=>{
         alert(`Order Placed! ${h3.innerText} ${p.textContent} and quantity is 100g with order ID:101`);
-    })
+    });
 }   
